@@ -8,6 +8,7 @@
 html, body {
     width: 100%;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -44,11 +45,9 @@ header img {
     cursor: pointer;
     transition: var(--transition);
 }
-.head-list:hover{
-    color: var(--mainColor);
-}
+.head-list:hover,
 .list-active{
-    color: var(--mainColor);
+    color: var(--mainColor) !important;
 }
 .header-btn{
     padding: 3% 10%;
